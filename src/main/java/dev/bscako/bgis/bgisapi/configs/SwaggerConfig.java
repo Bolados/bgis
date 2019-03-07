@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Import;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.context.request.async.DeferredResult;
 import springfox.bean.validators.configuration.BeanValidatorPluginsConfiguration;
-import springfox.documentation.PathProvider;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -155,7 +154,6 @@ public class SwaggerConfig {
     private ApiInfo apiMetadata() {
         String title = "BGIS API";
         String description = "Description";
-//        String version = "1";
         String company = "BTECH";
         String website = "bscako.tech";
         String email = "contact@bscako.tech";
