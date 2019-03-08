@@ -22,6 +22,8 @@ import javax.persistence.*;
         })
 public class Town extends AbstractMetaEntityIdDateGeometry {
 
+    private static final long serialVersionUID = 177223631740299185L;
+
     @Column(nullable = false)
     private String name;
 

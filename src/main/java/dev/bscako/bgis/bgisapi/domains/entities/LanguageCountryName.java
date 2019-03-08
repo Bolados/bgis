@@ -19,6 +19,8 @@ import javax.persistence.*;
 @EqualsAndHashCode(callSuper = true, exclude = {"country", "language"})
 public class LanguageCountryName extends AbstractMetaEntityDate {
 
+    private static final long serialVersionUID = 3625572367459112223L;
+
     @EmbeddedId
     private LanguageCountryNameId id;
 

@@ -25,6 +25,8 @@ import java.util.Set;
         })
 public class District extends AbstractMetaEntityIdDateGeometry {
 
+    private static final long serialVersionUID = -3056870362784096051L;
+
     @Column(nullable = false)
     private String name;
 

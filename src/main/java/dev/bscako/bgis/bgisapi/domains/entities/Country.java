@@ -28,6 +28,8 @@ import java.util.Set;
         })
 public class Country extends AbstractMetaEntityIdDateGeometry {
 
+    private static final long serialVersionUID = 7900624653695724617L;
+
     @Column(nullable = false)
     private String name;
 

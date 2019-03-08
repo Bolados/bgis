@@ -25,6 +25,8 @@ import java.util.Set;
         })
 public class Department extends AbstractMetaEntityIdDateGeometry {
 
+    private static final long serialVersionUID = -5035731125288512135L;
+
     @Column(nullable = false)
     private String name;
 

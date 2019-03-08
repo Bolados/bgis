@@ -21,6 +21,8 @@ import java.util.List;
 public class Region extends AbstractMetaEntityIdDate {
     public static final String FIELD_ENTITY = "Region";
 
+    private static final long serialVersionUID = 7307014067019151649L;
+
     @Column(length = 2, nullable = false)
     private String code;
 

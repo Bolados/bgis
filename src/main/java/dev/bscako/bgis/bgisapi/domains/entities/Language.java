@@ -21,6 +21,8 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true, exclude = {"languageCountryNames"})
 public class Language extends AbstractMetaEntityIdDate {
 
+    private static final long serialVersionUID = 4948305213017023543L;
+
     @Column(unique = true, nullable = false)
     private String name;
 
