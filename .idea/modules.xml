@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bgis.iml" filepath="$PROJECT_DIR$/.idea/bgis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/bgis-api.iml" filepath="$PROJECT_DIR$/api/bgis-api.iml" />
     </modules>
   </component>
 </project>
