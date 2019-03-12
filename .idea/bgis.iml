@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/web/e2e" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/web/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web/node_modules" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/qgis" />
       <excludeFolder url="file://$MODULE_DIR$/web/dist" />
       <excludeFolder url="file://$MODULE_DIR$/web/tmp" />
     </content>
