@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eef282f5-174c-4622-be0f-7067346178a1" name="Default Changelist" comment="idea files">
-      <change afterPath="$PROJECT_DIR$/web/src/app/spinner/helpers.data.ts" afterDir="false" />
+    <list default="true" id="eef282f5-174c-4622-be0f-7067346178a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/browserslist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tslint.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="docs/" />
@@ -109,7 +81,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,11 +148,85 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bgisapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bgisapi" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bgisapi" type="462c0819:PsiDirectoryNode" />
+              <item name="domains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bgis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bgis" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -181,6 +235,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552415455962" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,7 +303,8 @@
       <workItem from="1552394935932" duration="176000" />
       <workItem from="1552404043795" duration="3757000" />
       <workItem from="1552408089754" duration="5350000" />
-      <workItem from="1552417429856" duration="630000" />
+      <workItem from="1552417429856" duration="876000" />
+      <workItem from="1553508262901" duration="1418000" />
     </task>
     <task id="LOCAL-00001" summary="idea files">
       <created>1552217607633</created>
@@ -278,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552411022429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="set up scss type styles on project">
+      <created>1552418280745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552418280745</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14066000" />
+    <option name="totallyTimeSpent" value="15730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +359,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27279636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2781155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +367,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49848023" visible="true" weight="0.2673108" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49772036" visible="true" weight="0.2673108" />
       <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32850242" />
@@ -317,13 +380,13 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="14" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50151974" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50227964" side_tool="true" weight="0.2673108" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="2" weight="0.32978722" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2325228" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2325228" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="right" id="Palette" order="6" />
@@ -343,7 +406,8 @@
   <component name="VcsManagerConfiguration">
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea files" />
+    <MESSAGE value="set up scss type styles on project" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up scss type styles on project" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -453,31 +517,26 @@
     <entry file="file://$PROJECT_DIR$/web/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bgis-web/src/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bgis-web/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bgis-web/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bgis-web/src/styles.scss" />
+    <entry file="file://$PROJECT_DIR$/bgis-web/src/test.ts" />
+    <entry file="file://$PROJECT_DIR$/bgis-web/src/app/app.module.ts" />
     <entry file="file://$PROJECT_DIR$/web/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/dev/bscako/bgis/bgisapi/domains/helpers/jtsgeojson/JtsGeometryDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
       </provider>
     </entry>
   </component>
