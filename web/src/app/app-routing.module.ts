@@ -28,26 +28,28 @@ import {RouterModule, Routes} from '@angular/router';
 //     { path: '**', redirectTo: '/auth/login', pathMatch: 'full' }
 // ];
 
-const routes: Routes = [
-    {
-        path: 'admin',
-        // component: AdminComponent,
-        children: [
-            {
-                path: 'dashboard',
-                // component: DashboardComponent},
-            },
-            {
-                path: 'databases',
-                // component: UserComponent
-            },
-            {
-                path: 'countries',
-                // component: RightsComponent
-            }
-        ]
-    },
-];
+// const routes: Routes = [
+//     {
+//         path: 'admin',
+//         // component: AdminComponent,
+//         children: [
+//             {
+//                 path: 'dashboard',
+//                 // component: DashboardComponent},
+//             },
+//             {
+//                 path: 'databases',
+//                 // component: UserComponent
+//             },
+//             {
+//                 path: 'countries',
+//                 // component: RightsComponent
+//             }
+//         ]
+//     },
+// ];
+
+const routes: Routes = [];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes, {useHash: true})],

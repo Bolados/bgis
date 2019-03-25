@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {LoaderComponent} from './shared/components/loader/loader.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {CoreModule} from "./core";
 import {SharedModule} from "./shared";
@@ -11,12 +10,11 @@ import {SharedModule} from "./shared";
 
 @NgModule({
   declarations: [
-      AppComponent,
-      LoaderComponent
+      AppComponent
   ],
   imports: [
       // angular
-    BrowserModule,
+      BrowserModule,
       // core & shared
       CoreModule,
       SharedModule,

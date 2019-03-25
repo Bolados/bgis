@@ -65,7 +65,10 @@ library.add(
 );
 
 @NgModule({
-    declarations: [LoaderComponent],
+    declarations: [
+        ControlMessagesComponent,
+        LoaderComponent
+    ],
     imports: [
         CommonModule,
         FormsModule,
