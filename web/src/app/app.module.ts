@@ -3,17 +3,26 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
+import {LoaderComponent} from './shared/components/loader/loader.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {MatButtonModule, MatCheckboxModule} from "@angular/material";
+import {CoreModule} from "./core";
+import {SharedModule} from "./shared";
+
 
 @NgModule({
   declarations: [
-    AppComponent
+      AppComponent,
+      LoaderComponent
   ],
   imports: [
+      // angular
     BrowserModule,
-    BrowserAnimationsModule, MatButtonModule, MatCheckboxModule,
-    AppRoutingModule
+      // core & shared
+      CoreModule,
+      SharedModule,
+      // app
+      AppRoutingModule,
+      BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
