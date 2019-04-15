@@ -1,0 +1,8 @@
+@import '~@angular/material/theming';
+@import "test-layout/test-layout.component.scss-theme";
+@import "test2-layout/test2-layout/test2-layout.component.scss-theme";
+
+@mixin bgis-layouts-component-theme($theme) {
+    @include bgis-test-layout-component-theme($theme);
+    @include bgis-test2-layout-component-theme($theme);
+}

@@ -1,0 +1,24 @@
+<div class="container">
+    <mat-toolbar class="workspace header" header>
+        <h1 class="title">{{ title }}</h1>
+        <div class="spacer"></div>
+        <breadcrumb #parent>
+            <span *ngFor="let route of parent.breadcrumbs" class="breadcrumb">
+                <a *ngIf="!route.terminal"
+                   [disableRipple]="true"
+                   [routerLink]="[route.url]"
+                   href="" mat-button>{{ route.displayName }}</a>
+                <a *ngIf="route.terminal" [disabled]="true"
+                   mat-button>
+                    {{ route.displayName }}
+                </a>
+            </span>
+        </breadcrumb>
+    </mat-toolbar>
+    <ng-content></ng-content>
+</div>
+
+
+
+
+

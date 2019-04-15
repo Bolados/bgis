@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+$bgis-nature-primary: mat-palette($mat-brown, 700, 300, 900);
+$bgis-nature-accent: mat-palette($mat-deep-purple, 300);
+$bgis-nature-warn: mat-palette($mat-red, 600);
+
+$bgis-nature-theme: mat-light-theme(
+        $bgis-nature-primary,
+        $bgis-nature-accent,
+        $bgis-nature-warn
+);

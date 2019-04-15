@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+$bgis-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$bgis-black-accent: mat-palette($mat-blue-grey, 400);
+$bgis-black-warn: mat-palette($mat-red, 500);
+
+$bgis-black-theme: mat-dark-theme(
+        $bgis-black-primary,
+        $bgis-black-accent,
+        $bgis-black-warn
+);

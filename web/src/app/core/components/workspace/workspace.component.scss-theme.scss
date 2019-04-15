@@ -1,0 +1,44 @@
+@import '~@angular/material/theming';
+@import '~angular-crumbs/style';
+
+@mixin bgis-workspace-component-theme($theme) {
+    $primary: map-get($theme, primary);
+    $accent: map-get($theme, accent);
+    $warn: map-get($theme, warn);
+
+    .workspace.header {
+        background-color: transparent;
+        padding: 0px;
+
+        h1 {
+            font-weight: bold;
+            color: mat-color($primary, darker);
+            width: auto;
+            margin: 0;
+            padding: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+
+        .spacer {
+            flex: 1 1 auto;
+        }
+
+        .breadcrumb {
+            text-decoration: none;
+
+            .mat-button {
+                font-size: 18px;
+                padding: unset;
+            }
+
+        }
+
+        .breadcrumb:before {
+            content: '|';
+        }
+    }
+
+
+}

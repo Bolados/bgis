@@ -1,0 +1,18 @@
+<mat-toolbar class="footer">
+    <footer>
+
+        © 2019
+
+        <mat-form-field>
+            <mat-select (selectionChange)="changeTheme($event.value)" [(value)]="selectedTheme">
+                <mat-option *ngFor="let theme of themes.values()"
+                            value="{{ theme }}">
+                    {{ theme }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+    </footer>
+</mat-toolbar>
+
+

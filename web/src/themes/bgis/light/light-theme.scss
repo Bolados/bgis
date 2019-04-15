@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+$bgis-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$bgis-light-accent: mat-palette($mat-brown, 200);
+$bgis-light-warn: mat-palette($mat-deep-orange, 200);
+
+$bgis-light-theme: mat-light-theme(
+        $bgis-light-primary,
+        $bgis-light-accent,
+        $bgis-light-warn
+);

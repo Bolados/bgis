@@ -1,0 +1,20 @@
+@import '~@angular/material/theming';
+@import './toolbar/toolbar.component.scss-theme';
+@import './user-menu/user-menu.component.scss-theme';
+@import './sidebar/sidebar.component.scss-theme';
+@import './sidemenu/sidemenu.component.scss-theme';
+@import './sidemenu-item/sidemenu-item.component.scss-theme';
+@import './logo/logo.component.scss-theme';
+@import './search-bar/search-bar.component.scss-theme';
+@import './workspace/workspace.component.scss-theme';
+
+@mixin bgis-core-component-theme($theme) {
+    @include bgis-toolbar-component-theme($theme);
+    @include bgis-user-menu-component-theme($theme);
+    @include bgis-sidebar-component-theme($theme);
+    @include bgis-sidemenu-component-theme($theme);
+    @include bgis-sidemenu-item-component-theme($theme, 16px);
+    @include bgis-logo-component-theme($theme);
+    @include bgis-search-bar-component-theme($theme);
+    @include bgis-workspace-component-theme($theme);
+}

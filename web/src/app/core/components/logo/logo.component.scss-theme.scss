@@ -1,0 +1,42 @@
+@import '~@angular/material/theming';
+@import '../../../../themes/bgis/theme-variables';
+
+@mixin bgis-logo-component-theme($theme) {
+    $primary: map-get($theme, primary);
+    $accent: map-get($theme, accent);
+    $warn: map-get($theme, warn);
+
+    $component-color: var(--bgisToolbarComponentsColor);
+    $logo-width: var(--bgisToolbarLogoWidth);
+
+    .mat-button-focus-overlay {
+        background-color: transparent;
+    }
+
+    .logo-container {
+
+        width: $logo-width;
+
+        .logo-btn {
+
+            padding-left: 5px;
+            padding-right: 5px;
+
+            .logo {
+
+            }
+
+            .name {
+                color: mat-color($accent, darker);
+            }
+
+            .sub-name {
+                color: $component-color;
+            }
+
+        }
+
+
+    }
+
+}

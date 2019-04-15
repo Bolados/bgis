@@ -1,0 +1,9 @@
+<mat-form-field [floatLabel]="'never'" [ngClass]="{'search-open': open == true}" class="search">
+    <input (focus)="onFocus()" (focusout)="onFocusOut()"
+           autocomplete="off"
+           class="search-input"
+           matInput
+           placeholder="{{placeholder}}"
+           value="{{value}}"
+    >
+</mat-form-field>

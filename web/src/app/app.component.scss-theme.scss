@@ -1,0 +1,6 @@
+@import '~@angular/material/theming';
+@import "./core/components/core-components-scss-theme";
+
+@mixin bgis-app-component-theme($theme) {
+    @include bgis-core-component-theme($theme)
+}

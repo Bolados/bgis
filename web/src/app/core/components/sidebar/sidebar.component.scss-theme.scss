@@ -1,0 +1,127 @@
+@import '~@angular/material/theming';
+@import '../../../../themes/bgis/theme-variables';
+
+
+@mixin bgis-sidebar-component-theme($theme) {
+    $primary: map-get($theme, primary);
+    $accent: map-get($theme, accent);
+    $warn: map-get($theme, warn);
+
+    $background: mat-color($primary);
+
+    $top: var(--bgisSidebarTop);
+    $sidenav-width: var(--bgisSidebarMenuWidth);
+    $sidedrawer-width: var(--bgisSidebarMenuIconsWidth);
+
+
+    .sidebar-no-fixed-outside-toolbar
+    .mat-toolbar {
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .sidenav {
+        -webkit-transition: all 1.5s ease-in-out;
+        -moz-transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out;
+        -webkit-transition-property: width;
+        -moz-transition-property: width;
+        transition-property: width;
+    }
+
+    .sidebar-drawer {
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        -webkit-transition-property: width;
+        -moz-transition-property: width;
+        transition-property: width;
+    }
+
+    .sidenav {
+        position: relative;
+
+        &.drawer {
+            width: 0px;
+        }
+
+        &.side-nav {
+            width: $sidenav-width;
+        }
+
+    }
+
+    .sidebar-drawer {
+        &.drawer {
+            width: $sidedrawer-width;
+        }
+
+        &.side-nav {
+            width: 0px;
+        }
+
+    }
+
+    .sidebar-sidemenu, .sidebar-sidemenu.sidebar-sidemenu-icons {
+        height: 100%;
+        background-color: $background;
+
+        &.sidebar-sidemenu-icons.fixed, &.fixed {
+            position: fixed;
+        }
+
+    }
+
+    .sidebar-content {
+        &.mat-drawer-content {
+            position: unset;
+            margin-left: 0px !important;
+        }
+    }
+
+    .sidebar-content-go-top-btn {
+        .go-top-button {
+            background-color: mat-color($primary, darker, 0.75) !important;
+            color: mat-color($accent, darker) !important;
+            opacity: 0.4;
+            right: 3%;
+
+            :hover, :focus {
+                opacity: 0.8;
+            }
+
+        }
+
+    }
+
+    .sidebar-drawer-content {
+
+        perfect-scrollbar .ps {
+            .ps__rail-y {
+                background-color: transparent;
+
+                :hover {
+                    width: 6px;
+                }
+            }
+        }
+
+        perfect-scrollbar .ps.ps--active-y .ps__rail-y:hover {
+            width: 10px;
+            background-color: transparent;
+
+            .ps__thumb-y {
+                width: 7px;
+            }
+        }
+
+
+        .contentScroller.no-fullscreen .ps.ps--active-y .ps__rail-y .ps__thumb-y {
+            background-color: transparent;
+        }
+
+
+    }
+
+
+}
