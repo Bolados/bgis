@@ -4,8 +4,8 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {CoreModule} from "./core";
 import {SharedModule} from "./shared";
+import {CoreModule} from "./core";
 
 
 @NgModule({
@@ -13,11 +13,12 @@ import {SharedModule} from "./shared";
       AppComponent
   ],
   imports: [
+
       // angular
       BrowserModule,
       // core & shared
-      CoreModule,
       SharedModule,
+      CoreModule,
       // app
       AppRoutingModule,
       BrowserAnimationsModule

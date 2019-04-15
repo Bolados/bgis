@@ -1,10 +1,12 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+    selector: 'bgis-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bgis-web';
+
+    title = 'bgis-web';
+
 }

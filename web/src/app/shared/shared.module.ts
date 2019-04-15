@@ -1,9 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {MaterialModule} from "./material.module";
-import {LoaderComponent} from "./components/loader/loader.component";
-import {library} from "@fortawesome/fontawesome-svg-core";
-
+import {MaterialModule} from './material.module';
+import {library} from '@fortawesome/fontawesome-svg-core';
 import {
     faAsterisk,
     faBars,
@@ -30,12 +28,11 @@ import {
     faUserCircle,
     faWindowMaximize
 } from '@fortawesome/free-solid-svg-icons';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {RouterModule} from "@angular/router";
-import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
-import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
-import {NgxMasonryModule} from "ngx-masonry";
-import {ControlMessagesComponent} from "./components/control-messages/control-messages.component";
+import {RouterModule} from '@angular/router';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import {PERFECT_SCROLLBAR_CONFIG, PerfectScrollbarConfigInterface, PerfectScrollbarModule} from 'ngx-perfect-scrollbar';
+import {BreadcrumbModule} from 'angular-crumbs';
 
 library.add(
     faAsterisk,
@@ -64,33 +61,52 @@ library.add(
     faBook
 );
 
+const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
+    suppressScrollX: true
+};
+
 @NgModule({
     declarations: [
-        ControlMessagesComponent,
-        LoaderComponent
+        // ControlMessagesComponent,
+        // LoaderComponent
     ],
     imports: [
         CommonModule,
-        FormsModule,
-        ReactiveFormsModule,
+        MaterialModule,
+        FlexLayoutModule,
+        FontAwesomeModule,
         RouterModule,
-        NgbModule,
-        FontAwesomeModule
+        PerfectScrollbarModule,
+        BreadcrumbModule,
+
+        // FormsModule,
+        // ReactiveFormsModule,
+        // NgbModule,
+
     ],
     exports: [
         CommonModule,
-        FormsModule,
-        ReactiveFormsModule,
-        RouterModule,
-
         MaterialModule,
-
-        NgbModule,
+        FlexLayoutModule,
         FontAwesomeModule,
-        NgxMasonryModule,
+        RouterModule,
+        PerfectScrollbarModule,
+        BreadcrumbModule,
 
-        ControlMessagesComponent,
-        LoaderComponent
+
+        // FormsModule,
+        // ReactiveFormsModule,
+        // NgbModule,
+        // NgxMasonryModule,
+
+        // ControlMessagesComponent,
+        // LoaderComponent
+    ],
+    providers: [
+        {
+            provide: PERFECT_SCROLLBAR_CONFIG,
+            useValue: DEFAULT_PERFECT_SCROLLBAR_CONFIG
+        }
     ]
 })
 export class SharedModule {
